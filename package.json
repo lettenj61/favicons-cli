@@ -4,11 +4,18 @@
   "description": "Generate favicons using favicons package",
   "main": "dist/main.js",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -p ."
   },
   "keywords": ["favicon", "generator", "cli"],
-  "author": "",
+  "author": {
+    "email": "letitscalable+npm@gmail.com",
+    "name": "Hideyuki Ueno (lettenj61)",
+    "url": "https://github.com/lettenj61"
+  },
   "license": "(MIT OR Apache-2.0)",
   "dependencies": {
     "favicons": "^7.0.1",

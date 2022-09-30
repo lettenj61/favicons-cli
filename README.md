@@ -48,5 +48,5 @@ Options:
 Build
 
 ```bash
-$ npm run build
+$ pnpm run build
 ```
